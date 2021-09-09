@@ -13,13 +13,24 @@ a horizontal rule -->
 <html>
     <head>
         <title>Personal Profile</title>
+        <link rel='stylesheet' href='styles.css'/> 
     </head>
     <body>
-        <h1>About me</h1>
-        <p>My name is Emily Little. I am a studying bioinformatics
-             and I graduate in April! I am from Seattle, WA and I love hiking and art.</p>
+        <ul id="menu">
+            <li class="menu_list"><a href="index.html" class="link", id="active">Home</a></li>
+            <li class="menu_list"><a href="Learn_more.html" class="link">Learn more</a></li>
+            <li class="menu_list"><a href="portfolio.html" class="link">Portfolio</a></li>
+            <li style="float:right"><a href="about.html" class="link">About</a></li>
+        </ul>
+        <h1 class="header">About me</h1>
+
+    
+
+        <p>My name is <em id="name_test">Emily Little</em>. I am a studying bioinformatics
+             and I graduate in April! I am from Seattle, WA and I to hike do digital art.</p>
 
         <h2>Projects:</h2>
+
         <ul>
             <li>Spelling corrector program</li>
             <li>Basic interpreter</li>
@@ -27,6 +38,7 @@ a horizontal rule -->
         </ul>   
 
         <h2>Experience:</h2>
+
         <ul>
             <li>Bioinformatics Intern at Geneial</li>
             <li>Lab Technician at BYU's Research Instrumentation Core Facility</li>
@@ -34,13 +46,16 @@ a horizontal rule -->
         </ul>
         <hr/>
 
-        <p><h4>Contact Information:</h4> 
-        <ul>
+        <h4>Contact Information:</h4> 
+
+        <ul id="contact">
             <li>emily.birrell01@gmail.com </li>
             <li><a href="https://github.com/birrelle?tab=repositories">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/emily-birrell-bb4136192/">LinkedIn</a></li>
         </ul>
-        </p>
+
+
+        
     </body>
 
 </html>
