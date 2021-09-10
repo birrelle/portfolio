@@ -1,3 +1,40 @@
+@media only screen and (min-width: 961px) {
+    .test {
+    display:flex;
+    align-self:flex-start;
+    width:30%;
+    height: 85%;
+    background-color: rgb(223, 210, 187);
+   }
+   .menu_list {
+    /* float: left; */
+    flex-grow: 2;
+    flex-basis: 1;
+    flex-shrink: 1;
+    float: left;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    .test {
+    display:flex;
+    align-self:flex-start;
+    width:100%;
+    height: 85%;
+    background-color: rgb(223, 210, 187);
+    }
+.menu_list {
+    /* float: left; */
+    flex-grow: 2;
+    flex-basis: 1;
+    flex-shrink: 1;
+    float: left;
+    width: 100%;
+}
+
+}
+
 .header {
     font-size: 38px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -16,28 +53,16 @@
     margin: 0;
     padding: 0;
     background-color: rgb(112, 129, 146);
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
 .menu {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     flex-direction: row;
     /* align-items: baseline; */
 }
 
-.menu_list {
-    /* float: left; */
-    flex-grow: 2;
-    flex-basis: 1;
-    flex-shrink: 1;
-    float: left;
-    width: 25%
-
-}
 
 .link {
     display: block;
@@ -92,15 +117,6 @@ h4 {
     font-weight: 300;
     padding: 5%;
 }
-.test {
-    display:flex;
-    align-self:flex-start;
-    width:30%;
-    height: 85%;
-    background-color: rgb(223, 210, 187);
-
-}
-
 
 ul {
     /* display: flex;
