@@ -14,6 +14,14 @@
     float: left;
     width: 25%;
   }
+  .boxes {
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -31,6 +39,16 @@
     flex-shrink: 1;
     float: left;
     width: 100%;
+
+}
+.boxes {
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
 
 }
 
@@ -131,14 +149,6 @@ ul {
     padding: 5%;
 }
 
-.boxes {
-    display:flex;
-    justify-content:space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 55%;
-
-}
 
 #color1 {
     background-color: rgb(233, 235, 221);
@@ -150,4 +160,10 @@ ul {
 
 #color3 {
     background-color: rgb(180, 184, 166);
+}
+
+.box {
+    display: flexbox;
+    position: fixed;
+    bottom:0;
 }
